@@ -1,0 +1,18 @@
+create table SIRACUSA_PARK(
+ID INTEGER PRIMARY KEY,
+nome VARCHAR(20),
+disponibili INTEGER
+) Engine = 'InnoDB';
+
+INSERT INTO SIRACUSA_PARK VALUES(1, 'Molo',100);
+INSERT INTO SIRACUSA_PARK VALUES(2, 'Talete',100);
+INSERT INTO SIRACUSA_PARK VALUES(3, 'Marina',100);
+
+create table UTENTI(
+nome VARCHAR(20),
+CHAT_ID INTEGER PRIMARY KEY,
+aggiornamenti BOOLEAN 
+) Engine = 'InnoDB';
+
+
+
